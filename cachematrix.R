@@ -7,9 +7,6 @@
 
 ## This function creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
-<<<<<<< HEAD
-aaa
-=======
 
     ## Initialize s that is the Inverse of x
     s <- NULL
@@ -25,7 +22,6 @@ aaa
     list(set = set, get = get,
          setsolve = setsolve,
          getsolve = getsolve)
->>>>>>> patch-1
 }
 
 
